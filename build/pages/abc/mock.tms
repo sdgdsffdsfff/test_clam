@@ -1,0 +1,14 @@
+<!--
+	文档参照:
+	http://juicer.name/
+	http://cnpmjs.org/package/grunt-tms
+-->
+
+<cms:custom title="LOGO" group="新默认组0" fields="title:title测试图片:string,href:href图片链接:href"><br /></cms:custom>
+链接地址: ${href}
+
+<cms:custom title="分会场列表列表" group="新默认组1列表" fields="qt:qt机票分会场:string,dz:dz链接:href" defaultRow="2" row="6"><ul class="other-link">
+	#foreach($!item in $!customList)
+		<li class="other-link-item"><a href="$!{item.dz}" target="_blank">$!{item.qt}</a></li>
+	#end
+</ul></cms:custom>

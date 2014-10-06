@@ -1,0 +1,41 @@
+{
+    "name": "test_clam",
+    "version": "0.1.0",
+    "description": "a clam project",
+    "author": {
+        "name": "yuanqi.ch",
+        "email": "yuanqi.ch@alibaba-inc.com"
+    },
+	"repository": {
+        "type": "git",
+        "url": "http://gitlab.alibaba-inc.com/trip/test_clam"
+    },
+    "keywords": [
+        "clam", "Test_clam"
+    ],
+    "devDependencies": {
+        "grunt": "~0.4.1",
+		"time-grunt": "^0.2.10",
+        "grunt-contrib-copy": "",
+        "grunt-contrib-uglify": "~0.2.0",
+        "grunt-contrib-clean": "~0.4.0",
+        "grunt-contrib-less": "~0.5.0",
+        "grunt-sass":"~0.10.0",
+        "grunt-contrib-cssmin": "~0.5.0",
+        "grunt-contrib-watch": "",
+        "grunt-kmc": "~0.1.18",
+        "clam-util":"",
+        "grunt-mytps":"",
+        "grunt-cacheinfo":"",
+        "grunt-exec": "",
+        "grunt-flexcombo": "",
+		"grunt-htmlhint": "",
+		"grunt-combohtml":"",
+		"grunt-replace":"",
+        "grunt-tms":"",
+	    "grunt-tpl-compiler":"",
+	    "grunt-inline-assets":""
+    },
+
+    "dependencies": {}
+}

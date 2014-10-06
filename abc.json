@@ -1,0 +1,37 @@
+{
+    "name": "test_clam",
+    "desc": "description of your app",
+    "type": "clam",
+	"dirName":"test_clam",
+	"packageNameMd5":"71d5a6ed207069d5660114d87225673b",
+	"isH5":"false",
+	"port":"8081",
+	"proxyPort":"8090",
+	"group":"trip",
+	"src":"true",
+    "cssCompile":"less",
+	"version":"0.1.0",
+	"combohtml":"true",
+	"basePath":"pages/search/index.html",
+	"baseUrl":"/trip/test_clam/search/index.html",
+	"env":"publish",
+	"htmlProxy": [{
+		"urlReg": "^http://trip.taobao.com/index$",
+		"demoPage": "http://trip.taobao.com/index.php",
+		"replacements": [{
+			"fragment": "mods/demo/index.html",
+			"selector": "#lg"
+		}, {
+			"fragment": "mods/nav/index.html",
+			"selector": "#nv"
+		}]
+	}],
+    "author": {
+        "name": "yuanqi.ch",
+        "email": "yuanqi.ch@alibaba-inc.com"
+    },
+	"repository": {
+        "type": "git",
+        "url": "http://gitlab.alibaba-inc.com/trip/test_clam"
+    }
+}

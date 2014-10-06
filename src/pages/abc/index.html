@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<!--<?php if(isset($argv)){ $_GET = (array)(json_decode($argv[2]));	} ?>-->
+	<title> Test_clam - Abc Demo </title>
+	<meta charset="utf-8" />
+    <!--import Kissy Seed 1.4.1 & Pi Seed 1.1.7-->
+	<!--#include virtual="http://trip.taobao.com/go/act/trip/clam-pctpl-prefetch.php" -->
+	<!--import Page's Assets-->
+	<link rel="stylesheet" href="./index.less.css"/>
+	<script src="../../config.js"></script>
+</head>
+<body>
+	<!--#include virtual="http://trip.taobao.com/go/act/trip/clam-pctpl-header.php" -->
+	<div id="content">
+	    <!-- 内容模块 begin -->
+
+		<!--#include virtual="./mock.tms.html" -->
+
+	    <!-- 内容模块 end -->
+	</div>
+	<!--#include virtual="http://trip.taobao.com/go/act/trip/clam-pctpl-footer.php" -->
+	<script>
+		KISSY.use('test_clam/pages/abc/index', function(S, Abc) {
+			new Abc();
+		});	
+	</script>
+</body>
+</html>
