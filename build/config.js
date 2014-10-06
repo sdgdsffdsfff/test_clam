@@ -59,7 +59,7 @@
             packages: [
                 {
                     name: 'test_clam',
-                    path: 'http://' + srcHost +'/trip/test_clam/0.1.0',
+                    path: 'http://' + srcHost +'/trip/test_clam/0.1.1',
                     ignorePackageNameInUri: true
                 }
             ]
